@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  background-color: #94d1ec;
+
+  font-family: 'Red Hat Display';
+}
+.app-wrapper {
+  display: flex;
+  padding: 103px 146px;
+
+  .weather-info {
+    width: 559px;
+    height: 674px;
+    background-color: #ffffff;
+    border-radius: 40px;
+    margin-right: 121px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+    .weather-icon {
+      max-height: 230px;
+
+      margin-top: 21px;
+    }
+    .weather-description {
+      h1 {
+        font-weight: 600;
+        font-size: 40px;
+        text-align: center;
+      }
+      span {
+        display: flex;
+        align-content: space-between;
+        font-weight: 300;
+        font-size: 24px;
+
+        margin-left: 67px;
+      }
+    }
+  }
+  .location-info {
+    width: 878px;
+    height: 674px;
+    background-color: #ffffff;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+      font-weight: 700;
+      font-size: 40px;
+    }
+    input {
+      width: 538px;
+      height: 47px;
+      border-radius: 15px;
+      margin-bottom: 24px;
+      padding-left: 42px;
+      padding-top: 5px;
+
+      border: 1px solid black;
+      font-size: 32px;
+      font-weight: 500;
+      &::placeholder {
+        font-size: 36px;
+      }
+    }
+    button {
+      width: 115px;
+      height: 40px;
+      border-radius: 10px;
+      background-color: #94d1ec;
+      border: none;
+      color: #ffffff;
+      font-size: 25px;
+      margin-bottom: 10px;
+    }
+    span {
+      font-weight: 600;
+      font-size: 36px;
+    }
+  }
+}
